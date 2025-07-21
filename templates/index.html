@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Collaborative Editor</title>
+  <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h2>Collaborative Editor</h2>
+
+  <textarea id="editor">{{ content }}</textarea>
+  <br>
+  <button id="suggestBtn">AI Suggest</button>
+
+  <h4>Suggestions:</h4>
+  <ul id="suggestions"></ul>
+
+  <script src="/static/main.js"></script>
+</body>
+</html>
